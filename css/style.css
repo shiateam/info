@@ -1,0 +1,77 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #0d0d0d, #262626);
+}
+
+@font-face {
+    font-family: 'Myfont';
+    src: url('../font/MyriadPro-Regular.otf');
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: MyFont !important;
+}
+
+.container .main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.main .avatar {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black;
+    border-radius: 10px; */
+}
+
+.main .avatar img {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .link div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    align-items: center;
+}
+
+.main .link a p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+    color: #d7ede6;
+    font-size: 18px;
+}
+
+.main .link a span {
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+}
+
+#grad1 {
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #269ad9, #ffd169);
+}
+
+#grad2 {
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #269ad9, #df5f60);
+}
